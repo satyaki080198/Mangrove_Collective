@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]:after, [class*=" icon-"]:after, [class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Checkmark_Icon:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-Close_Icon:after {
+  content: "\e902";
+}
+.icon-dropdown_Icon_black:before {
+  content: "\e903";
+}
+.icon-Minus_Icon:after {
+  content: "\e904";
+}
+.icon-Plus_Icon:after {
+  content: "\e905";
+}
+.icon-Reset_Icon:after {
+  content: "\e906";
+}
